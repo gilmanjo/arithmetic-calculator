@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Nodes">
+      <UniqueIdentifier>{eab15300-08a0-44e5-91de-81d4c931d043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visitors">
+      <UniqueIdentifier>{4a2b2106-7dcd-4832-aa5e-e2adfb5e399c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes">
+      <UniqueIdentifier>{d9572c7b-1707-4333-9d74-22670ae9937a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visitors">
+      <UniqueIdentifier>{87b41270-daa6-4f19-ba74-04d4d5d349ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions">
+      <UniqueIdentifier>{8b6e2933-b2e1-48dd-8944-018b0ac15639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Expressions">
+      <UniqueIdentifier>{d99fd8ec-a8cd-43a0-b21a-f19620b013c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Builders">
+      <UniqueIdentifier>{76c93a7f-4c33-4bcb-b344-e7bea2ae92a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node Builders">
+      <UniqueIdentifier>{5384cdf7-d135-49ec-b713-c01da70766a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithEval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression_Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Add_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Divide_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sub_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Value_Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Header Files\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluation_Visitor.h">
+      <Filter>Header Files\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="SummationExp.h">
+      <Filter>Header Files\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductExp.h">
+      <Filter>Header Files\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionExp.h">
+      <Filter>Header Files\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitExp.h">
+      <Filter>Header Files\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParaExp.h">
+      <Filter>Header Files\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Add_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Divide_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Sub_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="Value_Node_Builder.h">
+      <Filter>Header Files\Node Builders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arithmetic_calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithEval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>Source Files\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluation_Visitor.cpp">
+      <Filter>Source Files\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="Add_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sub_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Value_Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParaExp.cpp">
+      <Filter>Source Files\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductExp.cpp">
+      <Filter>Source Files\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="SummationExp.cpp">
+      <Filter>Source Files\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionExp.cpp">
+      <Filter>Source Files\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitExp.cpp">
+      <Filter>Source Files\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Add_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Value_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sub_Node_Builder.cpp">
+      <Filter>Source Files\Node Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
